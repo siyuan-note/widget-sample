@@ -48,19 +48,19 @@
 }
 ```
 
-* `name`: Template name, must be the same as the repo name, and must be unique globally (no duplicate widget names in the
+* `name`: Widget name, must be the same as the repo name, and must be unique globally (no duplicate widget names in the
   marketplace)
-* `author`: Template author name
-* `url`: Template repo URL
-* `version`: Template version number, it is recommended to follow the [semver](https://semver.org/) specification
-* `description`: Template description, mainly used for display in the marketplace list, supports multiple languages
+* `author`: Widget author name
+* `url`: Widget repo URL
+* `version`: Widget version number, it is recommended to follow the [semver](https://semver.org/) specification
+* `description`: Widget description, mainly used for display in the marketplace list, supports multiple languages
     * `default`: Default language, must exist
     * `zh_CN`, `en_US` and other languages: optional, it is recommended to provide at least Chinese and English
 * `readme`: readme file name, mainly used to display in the marketplace details page, supports multiple languages
     * `default`: Default language, must exist
     * `zh_CN`, `en_US` and other languages: optional, it is recommended to provide at least Chinese and English
-* `i18n`: Template supported language list
-* `funding`: Template sponsorship information
+* `i18n`: Widget supported language list
+* `funding`: Widget sponsorship information
     * `openCollective`: Open Collective name
     * `patreon`: Patreon name
     * `github`: GitHub login name

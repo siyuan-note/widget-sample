@@ -1,11 +1,11 @@
 {
-  "name": "template-sample",
+  "name": "widget-sample",
   "author": "Vanessa",
-  "url": "https://github.com/siyuan-note/template-sample",
+  "url": "https://github.com/siyuan-note/widget-sample",
   "version": "0.0.1",
   "description": {
-    "default": "This is a template sample",
-    "zh_CN": "这是一个模板示例"
+    "default": "This is a widget sample",
+    "zh_CN": "这是一个挂件示例"
   },
   "readme": {
     "default": "README.md",
