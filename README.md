@@ -25,6 +25,10 @@
   "author": "Vanessa",
   "url": "https://github.com/siyuan-note/widget-sample",
   "version": "0.0.1",
+  "displayName": {
+    "default": "Widget Sample",
+    "zh_CN": "挂件示例"
+  },
   "description": {
     "default": "This is a widget sample",
     "zh_CN": "这是一个挂件示例"
@@ -53,6 +57,9 @@
 * `author`: Widget author name
 * `url`: Widget repo URL
 * `version`: Widget version number, it is recommended to follow the [semver](https://semver.org/) specification
+* `displayName`: Widget display name, mainly used for display in the marketplace list, supports multiple languages
+    * `default`: Default language, must exist
+    * `zh_CN`, `en_US` and other languages: optional, it is recommended to provide at least Chinese and English
 * `description`: Widget description, mainly used for display in the marketplace list, supports multiple languages
     * `default`: Default language, must exist
     * `zh_CN`, `en_US` and other languages: optional, it is recommended to provide at least Chinese and English
