@@ -5,7 +5,7 @@
 ## Get started
 
 * Make a copy of this repo as a widget with the <kbd>Use this widget</kbd> button, please note that the repo name
-  must be the same as the widget name
+  must be the same as the widget name, the default branch must be `main`
 * Clone your repo to a local development folder. For convenience, you can place this folder in
   your `{workspace}/data/widgets/` folder
 
