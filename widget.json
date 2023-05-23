@@ -3,6 +3,7 @@
   "author": "Vanessa",
   "url": "https://github.com/siyuan-note/widget-sample",
   "version": "0.0.1",
+  "minAppVersion": "2.9.0",
   "displayName": {
     "default": "Widget Sample",
     "zh_CN": "挂件示例"
