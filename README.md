@@ -38,10 +38,6 @@
     "default": "README.md",
     "zh_CN": "README_zh_CN.md"
   },
-  "i18n": [
-    "en_US",
-    "zh_CN"
-  ],
   "funding": {
     "openCollective": "b3log",
     "patreon": "",
@@ -68,7 +64,6 @@
 * `readme`: readme file name, mainly used to display in the marketplace details page, supports multiple languages
     * `default`: Default language, must exist
     * `zh_CN`, `en_US` and other languages: optional, it is recommended to provide at least Chinese and English
-* `i18n`: Widget supported language list
 * `funding`: Widget sponsorship information
     * `openCollective`: Open Collective name
     * `patreon`: Patreon name
