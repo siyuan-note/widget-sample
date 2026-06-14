@@ -22,19 +22,19 @@
   "name": "widget-sample",
   "author": "Vanessa",
   "url": "https://github.com/siyuan-note/widget-sample",
-  "version": "0.0.3",
-  "minAppVersion": "2.8.8",
+  "version": "0.0.4",
+  "minAppVersion": "3.7.0",
   "displayName": {
     "default": "Widget Sample",
-    "zh_CN": "挂件示例"
+    "zh-CN": "挂件示例"
   },
   "description": {
     "default": "This is a widget sample",
-    "zh_CN": "这是一个挂件示例"
+    "zh-CN": "这是一个挂件示例"
   },
   "readme": {
     "default": "README.md",
-    "zh_CN": "README_zh_CN.md"
+    "zh-CN": "README_zh-CN.md"
   },
   "funding": {
     "openCollective": "",
@@ -57,13 +57,13 @@
 * `minAppVersion`：挂件支持的最低思源笔记版本号
 * `displayName`：模板显示名称，主要用于模板集市列表中显示，支持多语言
     * `default`：默认语言，必须存在
-    * `zh_CN`、`en_US` 等其他语言：可选，建议至少提供中文和英文
+    * `zh-CN`、`en` 等其他语言：可选，须为 [BCP 47](https://tools.ietf.org/html/bcp47) 标签（如 `zh-CN`、`zh-TW`、`en`、`ja`、`pt-BR`）
 * `description`：挂件描述，主要用于挂件集市列表中显示，支持多语言
     * `default`：默认语言，必须存在
-    * `zh_CN`、`en_US` 等其他语言：可选，建议至少提供中文和英文
+    * `zh-CN`、`en` 等其他语言：可选，须为 BCP 47 标签
 * `readme`：自述文件名，主要用于挂件集市详情页中显示，支持多语言
     * `default`：默认语言，必须存在
-    * `zh_CN`、`en_US` 等其他语言：可选，建议至少提供中文和英文
+    * `zh-CN`、`en` 等其他语言：可选，须为 BCP 47 标签
 * `funding`：挂件赞助信息
     * `openCollective`：Open Collective 名称
     * `patreon`：Patreon 名称
