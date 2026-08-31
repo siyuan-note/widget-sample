@@ -10,8 +10,8 @@
 ## 开发
 
 * widget.json
-* icon.png (160*160)
-* preview.png (1024*768)
+* icon.png（可选默认图标，160*160）
+* preview.png（可选默认预览图，1024*768）
 * README*.md
 * index.html
 
@@ -36,6 +36,8 @@
     "default": "README.md",
     "zh-CN": "README.zh-CN.md"
   },
+  "icon": "icon.png",
+  "preview": "preview.png",
   "funding": {
     "openCollective": "",
     "patreon": "",
@@ -64,19 +66,23 @@
 * `readme`：自述文件名，主要用于挂件集市详情页中显示，支持多语言
     * `default`：默认语言，必须存在
     * `zh-CN`、`en` 等其他语言：可选，须为 BCP 47 标签
+    * 相对图片存在于 `package.zip` 时从本地加载，否则在线集市会回退到对应的 GitHub Release；如需离线显示，请将图片打入 `package.zip`
+* `icon`：可选的集市图标文件名，图片必须位于包根目录；支持 PNG、JPEG、WebP 和 AVIF，最大 64 KiB，建议尺寸为 160*160
+* `preview`：可选的集市预览图文件名，图片必须位于包根目录；支持 PNG、JPEG、WebP 和 AVIF，最大 512 KiB，建议尺寸为 1024*768
+    * 不支持 SVG。不需要图片时，请删除对应字段及传统文件 `icon.png` 或 `preview.png`，字段值不能为空字符串
 * `funding`：挂件赞助信息
     * `openCollective`：Open Collective 名称
     * `patreon`：Patreon 名称
     * `github`：GitHub 登录名
     * `custom`：自定义赞助链接列表
+    * `links`：带标签的自定义赞助链接列表，例如 `{"label": "赞助", "url": "https://example.com"}`
 * `keywords`：搜索关键字列表，用于集市搜索功能
 
 ## 打包
 
 无论使用何种方式编译打包，我们最终需要生成一个 package.zip，它至少包含如下文件：
 
-* icon.png
-* preview.png
+* `icon` 和 `preview` 字段声明的图片文件（可选）
 * README*.md
 * widget.json
 * index.html
