@@ -20,7 +20,7 @@
 <script>
     $.ajax({
         method: "POST",
-        url: "http://127.0.0.1:6806/api/query/sql",
+        url: "/api/query/sql",
         data: JSON.stringify({
             "stmt": "SELECT * FROM blocks WHERE content LIKE'%content%' LIMIT 7"
         })
