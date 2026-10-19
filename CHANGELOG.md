@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.0.5
+
+* Use same-origin API requests to prevent blank widgets in the desktop app
+
 ## v0.0.4
 
 * [Document optional marketplace images and labeled funding links](https://github.com/siyuan-note/siyuan/issues/19056)

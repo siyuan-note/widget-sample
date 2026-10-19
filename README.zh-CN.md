@@ -22,7 +22,7 @@
   "name": "widget-sample",
   "author": "Vanessa",
   "url": "https://github.com/siyuan-note/widget-sample",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "minAppVersion": "3.7.0",
   "displayName": {
     "default": "Widget Sample",
